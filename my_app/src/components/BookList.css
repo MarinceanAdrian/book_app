@@ -1,0 +1,22 @@
+.fade-book-list-enter {
+    opacity: 0
+}
+
+ .fade-book-list-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease-out; 
+}
+
+.fade-book-list-exit {
+    opacity: 0
+} 
+
+.fade-book-list-exit-active {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}  
+
+.books {
+    list-style-type: none;
+    margin: 0 auto;
+}

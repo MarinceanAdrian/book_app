@@ -1,0 +1,71 @@
+/* app styles */
+
+.App {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+nav {
+  padding: 5px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*  book-list */
+
+.book-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* theme-btn */
+button {
+  margin-bottom: 15px;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #383838;
+  cursor: pointer;
+  outline: none;
+}
+
+.book-list-transition-test-enter {
+  opacity: 0
+}
+
+.book-list-transition-test-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.book-list-transition-test-exit {
+  opacity: 1;
+}
+
+.book-list-transition-test-exit-active {
+  opacity: 0;
+  transition: opacity 500;
+}
+
+
+
