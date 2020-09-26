@@ -7,6 +7,7 @@ import "./BookList.css";
 
 const BookList = () => {
   // Directly destructure from the context
+  // Comment de la Codruta
   const { isLightTheme, light, dark } = useContext(ThemeContext);
 
   // the argument of this function is the value object from the Context file: either light or dark obj from the context
